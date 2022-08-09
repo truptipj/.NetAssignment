@@ -34,14 +34,14 @@ namespace WebApiAttributeRouting.Controllers
       };
     [HttpGet]
     [Route("GetBooksClass")]
-    public async Task<ActionResult<BooksClass>> GetBook()
+    public ActionResult <BooksClass> GetBook()
     {
       return Ok(Books);
     }
 
     [HttpGet]
     [Route("GetBooksById")]
-    public async Task<ActionResult<BooksClass>> GetBook(int id)
+    public ActionResult <BooksClass> GetBook(int id)
     {
       var Book = Books.Find(x => x.AuthorId == id);
       if (Book == null)
@@ -52,7 +52,7 @@ namespace WebApiAttributeRouting.Controllers
 
     [HttpPost]
     [Route("AddBooks")]
-    public async Task<ActionResult<BooksClass>> AddBook(BooksClass request)
+    public ActionResult<BooksClass> AddBook(BooksClass request)
     {
       Books.Add(request);
          return Ok(Books);
@@ -60,7 +60,7 @@ namespace WebApiAttributeRouting.Controllers
 
     [HttpPut]
     [Route("UpdateBooks")]
-    public async Task<ActionResult<BooksClass>> UpdateBook(BooksClass request)
+    public ActionResult<BooksClass> UpdateBook(BooksClass request)
     {
       var Book = Books.Find(x => x.AuthorId == request.AuthorId);
       if (Book == null)
@@ -73,7 +73,7 @@ namespace WebApiAttributeRouting.Controllers
 
     [HttpDelete]
     [Route("DeleteBooks")]
-    public async Task<ActionResult<BooksClass>> DeleteBook(int id)
+    public ActionResult<BooksClass> DeleteBook(int id)
     {
       var Book = Books.Find(x => x.AuthorId == id);
       if (Book == null)

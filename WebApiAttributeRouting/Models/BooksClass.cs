@@ -8,8 +8,8 @@ namespace WebApiAttributeRouting
   public class BooksClass
   {
     public int AuthorId { get; set; }
-    public string AuthorName { get; set; } = string.Empty;
+    public string AuthorName { get; set; }
     public int AuthorAge { get; set; }
-    public string AuthorCity { get; set; } = string.Empty;
+    public string AuthorCity { get; set; }
   }
 }
