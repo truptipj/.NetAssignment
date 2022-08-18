@@ -5984,11 +5984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\SimpleRepositoryCrud.csproj",
+      "projectUniqueName": "C:\\Training-Assignments\\dotnet-task\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\SimpleRepositoryCrud.csproj",
       "projectName": "SimpleRepositoryCrud",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\SimpleRepositoryCrud.csproj",
+      "projectPath": "C:\\Training-Assignments\\dotnet-task\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\SimpleRepositoryCrud.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\obj\\",
+      "outputPath": "C:\\Training-Assignments\\dotnet-task\\SimpleRepositoryCrud\\SimpleRepositoryCrud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

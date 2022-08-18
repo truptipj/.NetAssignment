@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SimpleRepositoryCrud",
+    "\\SimpleRepositoryCrud\\Controllers",
+    "\\SimpleRepositoryCrud\\Data",
+    "\\SimpleRepositoryCrud\\Migrations",
+    "\\SimpleRepositoryCrud\\Models",
+    "\\SimpleRepositoryCrud\\Repository"
+  ],
+  "SelectedNode": "\\SimpleRepositoryCrud\\Controllers\\EmployeeController.cs",
+  "PreviewInSolutionExplorer": false
+}
